@@ -40,7 +40,7 @@ const events = [
     location: 'E281',
   },
   {
-    name: 'First Official Club Meeting',
+    name: 'First Official Club Meeting!',
     description: 'Join us for our upcoming meeting! The Computer Science Club is excited to kick off the year with our first meeting of the 2023/2024 academic year. At this meeting, we will guide you through setting up the CS Club website on your local machine. We hope to see you there!',
     startDate: date('2023-09-05 19:00'),
     endDate: date('2023-09-05 20:00'),
@@ -54,17 +54,10 @@ const events = [
     location: 'E281',
   },
   {
-    name: 'Club Meeting',
-    description: 'Join us for our upcoming meeting! We will begin to work on the CS Club website events API. We hope to see you there!',
-    startDate: date('2023-09-12 19:00'),
-    endDate: date('2023-09-12 20:00'),
-    location: 'E281',
-  },
-  {
-    name: 'Coding Challenge Lab',
-    description: 'Join us for our upcoming lab! Members who signed up for our September coding challenge will meet their teams for the first time and begin working on their projects. We hope to see you there!',
-    startDate: date('2023-09-14 18:00'),
-    endDate: date('2023-09-14 20:00'),
+    name: 'Happy FunTimes Coding Session',
+    description: 'Join us for our upcoming Happy FunTimes Coding Session! Learn the basics of the Happy FunTimes Coding Sessions. A functional understanding of Happy FunTimes Coding Sessions will be extremely important for your future projects and career. We hope to see you there!',
+    startDate: date('2023-16-07 19:00'),
+    endDate: date('2023-16-07 20:00'),
     location: 'E281',
   },
 ].sort((a, b) => a.startDate - b.startDate);
